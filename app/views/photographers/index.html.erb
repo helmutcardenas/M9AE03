@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Photographers</h1>
+
+<div id="photographers">
+  <% @photographers.each do |photographer| %>
+    <%= render photographer %>
+    <p>
+      <%= link_to "Show this photographer", photographer %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New photographer", new_photographer_path %>
