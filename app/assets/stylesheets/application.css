@@ -17,14 +17,36 @@
  *{
     margin: 0;
     padding: 0;
+    
 }
 
  h1{
     color: black;
     text-shadow: 2px 2px 5px black;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
 }
 
+
 body{
-    background-image:
+    background-image: url(image.jpg);
+    background-size: 100%;
 }
+
+a{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+.button_to{
+    display: flex;
+    justify-content: center;
+}
+
